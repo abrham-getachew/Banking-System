@@ -3,6 +3,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../Block_hub/block_hub_main_page.dart';
 import 'LIFEX/LifeXScreen.dart';
 import 'block_hub_home.dart';
 import 'home.dart';
@@ -39,7 +40,7 @@ class MainScreen extends StatelessWidget {
 
             break;
           case 2:
-            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => BlockHubScreen()));
+            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => BlockHubMainPage()));
             break;
           case 3:
             Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => LifeXScreen()));
